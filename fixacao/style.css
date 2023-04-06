@@ -19,19 +19,35 @@
   }
   
   section{
+    text-align: center;
     height: 120px;
     width: 180px;
     background-color: white;
     padding: 20px;
     margin: 10px 0;
   }
+ 
+  .verde:active {
+    background-color: green;
+  }
   
   nav{
+    position: sticky;
+    top: 0;
     padding: 20px;
     background-color: white;
+  }
+  aside {
+    position: absolute;
+    right: 2vw;
+    bottom: 0;
+    
   }
   
   footer{
     background-color: #abd1c6;
     padding: 20px;
+  }
+  footer:hover {
+    background-color: yellow;
   }

@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: blue;
+    height: 10vh;
+    position: sticky;
+    top: 0;
+}
+
+main {
+    background-color: blueviolet;
+    height: 80vh;
+}
+
+footer {
+    background-color: aquamarine;
+    height: 10vh;
+}
